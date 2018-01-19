@@ -33,4 +33,6 @@ public abstract class currentMood implements moodable{
         return this.mood;
     }
 
+    public abstract Boolean isHappy();
+
 }

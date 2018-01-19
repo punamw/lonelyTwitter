@@ -6,7 +6,7 @@ import java.util.Date;
  * Created by PunamWoosaree on 2018-01-18.
  */
 
-public class sad {
+public class sad extends currentMood {
     public sad (String mood){
         super(mood);
     }
@@ -16,7 +16,7 @@ public class sad {
     }
 
     @Override
-    public Boolean sad(){
+    public Boolean isHappy(){
         return Boolean.FALSE;
     }
 
