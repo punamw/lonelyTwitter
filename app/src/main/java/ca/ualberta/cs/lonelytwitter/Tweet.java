@@ -45,7 +45,7 @@ public abstract class Tweet implements Tweetable {
     }
 
     public abstract Boolean isImportant();
-    
+
     public void add_mood(currentMood){
         this.moods.add(mood);
     }
