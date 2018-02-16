@@ -57,7 +57,7 @@ public class TweetListTest extends ActivityInstrumentationTestCase2 {
         assertFalse(tweets.hasTweet(tweet));
     }
 
-
+//adding a comment for test purposes
     public void testGetCount(){
         TweetList tweets = new TweetList();
 
