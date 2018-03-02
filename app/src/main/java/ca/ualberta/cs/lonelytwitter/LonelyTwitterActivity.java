@@ -133,3 +133,5 @@ public class LonelyTwitterActivity extends Activity {
 		}
 	}
 }
+
+//commenting for testing purposes
